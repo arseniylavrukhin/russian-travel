@@ -1,0 +1,11 @@
+.place__website {
+    width: 100%;
+    height: auto;
+    align-self: flex-end;
+}
+
+@media all and (max-width: 540px) {
+    .place__website {
+        display:none;
+        }
+    }
