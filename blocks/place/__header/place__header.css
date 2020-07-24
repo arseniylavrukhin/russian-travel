@@ -1,0 +1,11 @@
+.place__header {
+    margin: 0 auto 48px auto;
+    display: flex;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__header {
+    max-width: calc(100% - 32px);
+    margin: 0 auto 32px;
+    }
+  }

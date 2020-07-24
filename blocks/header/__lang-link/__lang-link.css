@@ -2,8 +2,11 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    margin-left: 18px;
-    margin-bottom: 2px; /*сделал так, т.к. в любом случае эти ссылки должны прописываться через псевдоклассы(состояния, а не модификаторы)*/
     color: #FFFFFF;
     text-decoration: none;
+    margin-left: 18px;
 }
+
+.header__lang-link:hover {
+    text-decoration: underline;
+  }

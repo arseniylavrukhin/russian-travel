@@ -1,9 +1,13 @@
-
 .place__link {
     width: 100%;
+    font-style: 400;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    text-align: left;
+    text-decoration-line: underline;
     color: #FFFFFF;
-}
+  }
+  
+  .place__link:hover {
+    opacity: 0.8;
+  }

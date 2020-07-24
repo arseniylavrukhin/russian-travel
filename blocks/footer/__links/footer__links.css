@@ -3,9 +3,14 @@
     display: flex;
   }
 
+  @media screen and (max-width: 1023px) {
+    .footer__links {
+    margin: 0 0 24px 0;
+    }
+  }
+
   @media screen and (max-width: 767px) {
     .footer__links{
-    max-width: 186px;
     flex-direction: column;
     justify-content: start;
     margin: 0 0 0 16px;

@@ -1,7 +1,3 @@
 .header__lang-link_selected {
-    border-bottom: 2px white solid;
-}
-
-@media all and (max-width: 540px) {
-    margin-left: 0;
+    text-decoration: underline;
 }

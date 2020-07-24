@@ -8,12 +8,15 @@
     margin-top: 0px;
     margin-bottom: 40px;
 }
-
 @media screen and (max-width: 767px) {
-    .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-        width: 288px;
-        height: 70px;
-    }
+.intro__title {
+    font-size: 40px;
+    line-height: 44px;
+    width: 500px;} /*Промежуток*/
+}
+@media screen and (max-width: 540px) {
+.intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: 288px;}
   }
