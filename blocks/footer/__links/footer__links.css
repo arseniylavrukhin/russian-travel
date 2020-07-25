@@ -1,18 +1,16 @@
 .footer__links {
-    max-width: 500px;
-    display: flex;
-  }
+  display: grid;
+  grid-auto-columns: minmax(min-content, max-content);
+  grid-auto-flow: column;
+  list-style-type: none;
+  grid-gap: 18px;
+  padding: 0;
+  margin: 0;
+}
 
-  @media screen and (max-width: 1023px) {
-    .footer__links {
-    margin: 0 0 24px 0;
-    }
+@media all and (max-width: 767px) {
+  .footer__links {
+    grid-auto-flow: row;
+    grid-gap: 32px
   }
-
-  @media screen and (max-width: 767px) {
-    .footer__links{
-    flex-direction: column;
-    justify-content: start;
-    margin: 0 0 0 16px;
-    }
-  }
+}

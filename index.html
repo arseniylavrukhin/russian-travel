@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./styles/index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
 </head>
-
 <body class="root">
     <header class="header">
         <img class="header__header-logo" src="./images/header-logo.svg" alt="Здесь должен быть логотип">
@@ -16,6 +14,7 @@
             <li><a class="header__lang-link" href="#">En</a></li>
         </ul>
     </header>
+    <main>
     <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
@@ -41,7 +40,6 @@
         </ul>
     </section>
     <section class="photo-grid">
-      <div class="grid">
         <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Здесь должно быть изображение с путешествия">
         <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Здесь должно быть изображение с путешествия">
         <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Здесь должно быть изображение с путешествия">
@@ -54,7 +52,6 @@
         <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Здесь должно быть изображение с путешествия">
         <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Здесь должно быть изображение с путешествия">
         <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Здесь должно быть изображение с путешествия">
-      </div>
     </section>
     <section class="places">
         <div class="place">
@@ -165,14 +162,18 @@
             </div>
         </a>
     </section>
+</main>
     <footer class="footer">
-        <nav class="footer-links">
-            <a href="#" class="footer__link">Карты</a>
-            <a href="#" class="footer__link">Погода</a>
-            <a href="#" class="footer__link">Расписание</a>
-            <a href="#" class="footer__link">Календарь</a>
-            <a href="#" class="footer__link">Путешествия</a>
+        <nav>
+            <ul class="footer__links">
+            <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+            <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+            <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+            <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+            <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+            </ul>
         </nav>
         <p class="footer__copyright">© 2020. Лаврухин Арсений</p>
     </footer>
 </body>
+</html>

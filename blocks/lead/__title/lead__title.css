@@ -5,7 +5,8 @@
     text-align: center;
     margin: 0 auto 32px;
     max-width: 720px;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+}
 /*Сделал промежуточный*/
 @media screen and (max-width: 767px) {
 .lead__title {
@@ -13,13 +14,12 @@
     line-height: 80px;
     margin: 0px auto 16px;
     max-width: 560px;
-    color: #FFFFFF;}
+}
 }
 @media screen and (max-width: 540px) {
 .lead__title {
     font-size: 40px;
     line-height: 44px;
-    margin: 0px auto 16px;
     max-width: 288px;
-    color: #FFFFFF;}
+}
 }

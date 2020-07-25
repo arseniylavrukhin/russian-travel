@@ -9,9 +9,6 @@
 }
 @media screen and (max-width: 768px) {
 .intro__text {
-    width: auto;}
+    width: auto;
 }
-@media screen and (max-width: 540px) {
-.intro__text {
-    width: auto;}
 }
